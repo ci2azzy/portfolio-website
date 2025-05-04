@@ -1,0 +1,96 @@
+/*
+Colors Used:
+Primary: (Blue) #3772FF
+Secondary: (Red) #DF2935
+Tertiary: (Yellow) #FDCA40
+Background Light: (Gray) #E6E8E6
+Background Dark: (Black) #080708
+*/
+body {
+    background-color: #E6E8E6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #4a4a4a;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1.4;
+  }
+
+h1 {
+    font-family: 'Arvo', serif;
+    font-size: 2.75em;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Arvo', serif;
+    font-size: 2.25em;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Arvo', serif;
+    font-size: 1.75em;
+    font-weight: 400;
+}
+
+h4 {
+    font-family: 'Arvo', serif;
+    font-size: 1.35em;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #1710f3;
+    text-decoration: none;
+}
+a:visited {
+    color: #FDCA40;
+}
+a:hover,
+a:focus {
+    color: #DF2935;
+    text-decoration: underline;
+}
+a:active {
+    color: #6f151b;
+    text-decoration: underline;
+}
+
+.button {
+    display: inline-block;
+    background-color: #3772FF;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #1946af;
+    transition: 0.2s opacity;
+    }
+.button:hover,
+.button:active {
+    text-decoration: none;
+    opacity: 0.8;
+}
+.button.contact {
+    background-color: transparent;
+    color: #3772FF;
+    text-transform: uppercase;
+    border: 2px solid #1946af
+}
+.button.contact:hover {
+    background-color: #3772FF;
+    color: #ffffff;
+}
