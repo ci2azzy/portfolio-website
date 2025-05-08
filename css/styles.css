@@ -6,6 +6,11 @@ Tertiary: (Yellow) #FDCA40
 Background Light: (Gray) #E6E8E6
 Background Dark: (Black) #080708
 */
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #E6E8E6;
     font-family: 'Roboto', sans-serif;
@@ -88,9 +93,129 @@ a:active {
     background-color: transparent;
     color: #3772FF;
     text-transform: uppercase;
-    border: 2px solid #1946af
+    border: 2px solid #3772FF
 }
 .button.contact:hover {
     background-color: #3772FF;
     color: #ffffff;
+}
+
+/* Layout Styling */
+
+.container {
+    padding: 0 15 px;
+}
+
+.row {
+    margin: 25px 0;
+}
+
+#work .row { 
+    padding-bottom: 25px; border-bottom: 1px solid #4a4a4a
+}
+
+#hero h1 {
+    text-align: center;
+}
+
+#about .row { 
+    padding-bottom: 25px; border-bottom: 1px solid #4a4a4a
+}
+
+#about h1 {
+    text-align: center;
+}
+
+#overview .row { 
+    padding-bottom: 25px; border-bottom: 1px solid #4a4a4a
+}
+
+#overview h1 {
+    text-align: center;
+}
+
+#hero {
+    background-color: #ffe4c4;
+}
+
+#hero {
+    background-color: #ffe4c4;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%
+}
+
+header {
+    background-color: #ffe4c4;
+    text-align: center;
+    margin-left: -8px;
+    padding: 10px 0;
+    width: 100%; 
+	height: [object Object]px; 
+	background: #ffe4c4; 
+	border: solid #BDBDBD 1px; 
+	box-shadow: 9px 5px 15px rgba(0, 0, 0, 0.2)  ; 
+	-webkit-box-shadow: 9px 5px 15px rgba(0, 0, 0, 0.2)  ; 
+	-moz-box-shadow: 9px 5px 15px rgba(0, 0, 0, 0.2)  ;
+    position: fixed;
+    display: inline-block;
+}
+
+main { 
+    padding-top: 136.4px;
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+}
+
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+nav > ul > li > a {
+    padding: 0 15px;
+    text-decoration: uppercase;
+    font-weight: 700px;
+    color: #4a4a4a;
+}
+
+nav > ul > li > a:hover,
+a:focus {
+    padding: 0 15px;
+    text-decoration: uppercase;
+    font-weight: 700px;
+    color: #DF2935;
+}
+
+nav > ul > li > a:active {
+    padding: 0 15px;
+    text-decoration: uppercase;
+    font-weight: 700px;
+    color: #6f151b;
+}
+
+nav > ul > li > a:visited {
+    padding: 0 15px;
+    text-decoration: uppercase;
+    font-weight: 700px;
+    color: #FDCA40;
+}
+
+.logo {
+    max-width: 50px;
+}
+
+.ig {
+    max-width: 20px;
+}
+
+.linkedin {
+    max-width: 20px;
 }
