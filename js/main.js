@@ -1,0 +1,1 @@
+console.log("Hello! Welcome to my Portfolio. This message was made with JavaScript.");
