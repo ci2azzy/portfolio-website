@@ -64,11 +64,11 @@ a {
 a:visited {
     color: #FDCA40;
 }
-a:hover,
+/* a:hover,
 a:focus {
     color: #DF2935;
     text-decoration: underline;
-}
+} */
 a:active {
     color: #6f151b;
     text-decoration: underline;
@@ -79,10 +79,12 @@ a:active {
     background-color: #3772FF;
     color: #ffffff;
     font-weight: 400;
+    text-decoration: none;
     padding: 10px;
     border-radius: 3px;
     border-bottom: 2px solid #1946af;
     transition: 0.2s opacity;
+    transition-property: opacity;
     }
 .button:hover,
 .button:active {
@@ -218,4 +220,76 @@ nav > ul > li > a:visited {
 
 .linkedin {
     max-width: 20px;
+}
+
+
+/* Media Queries */
+@media only screen and (min-width: 640px) {
+    header {
+        text-align: unset;
+        padding: 20px 0 13px;
+    }
+
+    nav {
+        width: auto;
+        float: right;
+        margin-top: 4px;
+    }
+
+    main {
+        padding-top: 96.2px;
+    }
+
+    body {
+        font-size: 18px;
+    }
+
+    #hero h3,
+    p {
+        text-align: center;
+    }
+
+    #hero span {
+        display: block;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    [class*="col-"] {
+        float: left;
+        padding: 8px
+    }
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    #about h3 { margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .col-lg-7 {
+        width: 58.3333%;
+    }
+
+    .col-lg-5 {
+        width: 41.66667%;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+}
+
+@media only screen and (min-width: 1920px) {
 }
