@@ -10,19 +10,38 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/210a8ae13e.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div>
         <header>
-            <div>
-                <img class="logo" srcset="img/main-logo-black-transparent.svg" alt="Christopher's Logo">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Work</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
+            <div class="container">
+                <div class="navtoggle" id="myNavtoggle">
+                    <a href="index.html">
+                        <img class="logo" srcset="img/main-logo-black-transparent.svg" alt="Christopher's Logo">
+                    </a>
+                    <nav>
+                        <ul class="navigation">
+                            <li>
+                                <a href="index.html">Work</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="#contact" onclick="menuToggle()">Contact</a>
+                            </li>
+                            <li>
+                                <a 
+                                href="javascript:void(0);" 
+                                class="icon" 
+                                onclick="menuToggle()">
+                                <i class="fas fa-bars"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </header>
         <main id="overview"><!-- Main Overview Div -->
@@ -92,7 +111,7 @@
         </div>
         </main>
         <footer id="container">
-            <div>
+            <div id="contact">
                 <h2>Contact Me</h2>
                 <p>If you would like to get in touch, call <a href="tel:+16785216750">+16785216750</a> or please reach out below:</p>
                 <div>
@@ -110,5 +129,9 @@
             </div>
         </footer>
         </div>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
