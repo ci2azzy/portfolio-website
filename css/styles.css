@@ -183,18 +183,15 @@ a:active {
 
 #hero {
     background-color: #ffe4c4;
-}
-
-#hero {
-    background-color: #ffe4c4;
     padding: 20px 0;
     display: inline-block;
-    width: 100%
+    width: 100%;
 }
+
 
 header {
     background-color: #ffe4c4;
-    text-align: center;
+    margin-top: -8px;
     margin-left: -8px;
     padding: 10px 0;
     width: 100%; 
@@ -209,22 +206,18 @@ header {
 }
 
 main { 
-    padding-top: 136.4px;
-}
-
-nav {
-    display: inline-block;
-    width: 100%;
+    padding-top: 97.59px;
 }
 
 nav > ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 nav > ul > li {
-    display: inline-block;
-}
+    display: block;
+    }
 
 nav > ul > li > a {
     padding: 0 15px;
@@ -256,7 +249,7 @@ nav > ul > li > a:visited {
 }
 
 .logo {
-    max-width: 50px;
+    max-width: 90px;
 }
 
 .ig {
@@ -267,9 +260,43 @@ nav > ul > li > a:visited {
     max-width: 20px;
 }
 
+.navtoggle li:not(:last-child) {
+    display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+    position: relative;
+}
+
+.navtoggle li .icon {
+        position: absolute;
+        right: 0;
+        top: 30px;
+        font-size: 20px;
+        padding-right: 30px;
+}
+
+.navtoggle.responsive li {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255,127,80,0.5);
+}
+
+.navigation.responsive nav {
+    padding: 24px 0 0;
+}
+
+.navtoggle.responsive li:last-child {
+    padding: 0 0 10px;
+}
 
 /* Media Queries */
 @media only screen and (min-width: 640px) {
+
+    nav > ul > li {
+    display: inline-block;
+    }
+
     header {
         text-align: unset;
         padding: 20px 0 13px;
@@ -279,6 +306,10 @@ nav > ul > li > a:visited {
         width: auto;
         float: right;
         margin-top: 4px;
+    }
+
+    nav > ul {
+        margin: 1em 0;
     }
 
     main {
@@ -315,6 +346,20 @@ nav > ul > li > a:visited {
 
     #about h3 { margin-top: 0;
     }
+
+    .logo {
+        max-width: 50px;
+    }
+
+    .navtoggle li:not(:last-child) {
+    display: inline-block;
+    }
+
+    .navtoggle li:last-child {
+        display: none;
+    }
+
+
 }
 
 @media only screen and (min-width: 1024px) {
