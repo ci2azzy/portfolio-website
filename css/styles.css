@@ -205,6 +205,13 @@ header {
     display: inline-block;
 }
 
+footer {
+    background-color: #ffe4c4;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
 main { 
     padding-top: 97.59px;
 }
