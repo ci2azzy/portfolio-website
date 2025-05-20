@@ -153,6 +153,10 @@ a:active {
     padding: 0 15 px;
 }
 
+.footer-container {
+    padding: 0 15 px;
+}
+
 .row {
     margin: 25px 0;
 }
