@@ -216,6 +216,10 @@ footer {
     margin-top: 20px;
 }
 
+footer > ul {
+    list-style-type: none;
+}
+
 main { 
     padding-top: 97.59px;
 }
