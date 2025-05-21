@@ -198,11 +198,10 @@ a:active {
 
 
 header {
-    background-color: #ffe4c4;
+    background-color: #FDCA40 opacity 0.35;
     padding: 10px 0;
     width: 100%; 
 	height: auto; 
-	background: #ffe4c4; 
 	border: solid #BDBDBD 1px; 
 	box-shadow: 9px 5px 15px rgba(0, 0, 0, 0.2)  ; 
 	-webkit-box-shadow: 9px 5px 15px rgba(0, 0, 0, 0.2)  ; 
