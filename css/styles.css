@@ -397,7 +397,8 @@ nav > ul > li > a:visited {
     }
 
     header {
-        margin: none
+        margin-left: none;
+        margin-top: none;
     }
 }
 
