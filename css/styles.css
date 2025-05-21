@@ -161,6 +161,10 @@ a:active {
     margin: 25px 0;
 }
 
+.socials {
+    margin-bottom: 15px;
+}
+
 #work .row { 
     padding-bottom: 25px; border-bottom: 1px solid #4a4a4a
 }
