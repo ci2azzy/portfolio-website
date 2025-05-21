@@ -150,11 +150,11 @@ a:active {
 /* Layout Styling */
 
 .container {
-    padding: 0 15 px;
+    padding: 15px 0;
 }
 
 .footer-container {
-    padding: 0 15 px;
+    padding: 0 15px;
 }
 
 .row {
