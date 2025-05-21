@@ -150,7 +150,7 @@ a:active {
 /* Layout Styling */
 
 .container {
-    padding: 15px 0;
+    padding: 0 15px;
 }
 
 .footer-container {
@@ -201,7 +201,7 @@ header {
     background-color: #ffe4c4;
     padding: 10px 0;
     width: 100%; 
-	height: [object Object]px; 
+	height: auto; 
 	background: #ffe4c4; 
 	border: solid #BDBDBD 1px; 
 	box-shadow: 9px 5px 15px rgba(0, 0, 0, 0.2)  ; 
