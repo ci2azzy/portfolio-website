@@ -395,6 +395,10 @@ nav > ul > li > a:visited {
         margin-left: auto;
         margin-right: auto;
     }
+
+    header {
+        margin: none
+    }
 }
 
 @media only screen and (min-width: 1440px) {
