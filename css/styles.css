@@ -199,8 +199,6 @@ a:active {
 
 header {
     background-color: #ffe4c4;
-    margin-top: -8px;
-    margin-left: -8px;
     padding: 10px 0;
     width: 100%; 
 	height: [object Object]px; 
@@ -396,10 +394,6 @@ nav > ul > li > a:visited {
         margin-right: auto;
     }
 
-    header {
-        margin-left: none;
-        margin-top: none;
-    }
 }
 
 @media only screen and (min-width: 1440px) {
