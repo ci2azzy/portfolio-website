@@ -61,14 +61,16 @@ a {
     color: #1710f3;
     text-decoration: none;
 }
-/* a:visited {
-    color: #FDCA40;
-} */
-/* a:hover,
+
+a:visited {
+    color: #000000;
+}
+
+a:hover,
 a:focus {
     color: #DF2935;
     text-decoration: underline;
-} */
+}
 a:active {
     color: #6f151b;
     text-decoration: underline;
@@ -127,7 +129,7 @@ a:active {
     to {transform: rotate(360deg);}
 }
 
-#logo {
+.logo {
     animation: spin;
     animation-duration: 5s;
     animation-iteration-count: infinite;
