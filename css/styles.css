@@ -133,7 +133,6 @@ a:active {
     animation: spin;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
     animation-timing-function: linear;
 }
 
