@@ -86,8 +86,7 @@ a:active {
     transition: 0.2s opacity;
     transition-property: opacity;
     }
-.button:hover,
-.button:active {
+.button:hover {
     transform: translateY(-1px);
     text-decoration: none;
     opacity: 0.8;
@@ -121,6 +120,10 @@ a:active {
 @keyframes cloud-move-reverse {
     from {transform: translate(446px,48px);}
     to {transform: translate(100px,48px);}
+}
+
+#logo {
+    animation: spin 5s linear infinite;
 }
 
 .sun {
