@@ -280,6 +280,7 @@ nav > ul > li > a:visited {
 
 .logo {
     width: 90px;
+    height: auto;
 }
 
 .ig {
