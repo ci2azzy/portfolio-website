@@ -130,6 +130,12 @@ a:active {
 }
 
 #logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Optional: add some padding */
+    padding: 10px;
+    /* Remove width/height restrictions if present */
     overflow: visible;
 }
 
