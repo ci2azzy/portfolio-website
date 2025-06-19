@@ -129,6 +129,16 @@ a:active {
     to {transform: rotate(360deg);}
 }
 
+#logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Optional: add some padding */
+    padding: 10px;
+    /* Remove width/height restrictions if present */
+    overflow: visible;
+}
+
 .logo {
     animation: spin;
     animation-duration: 5s;
