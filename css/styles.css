@@ -140,6 +140,7 @@ a:active {
 }
 
 .logo {
+    display: block;
     animation: spin;
     animation-duration: 5s;
     animation-iteration-count: infinite;
